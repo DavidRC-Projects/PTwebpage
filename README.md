@@ -43,11 +43,17 @@ I used a colour image picker to select colours from the logo, ensuring consisten
 
 ![imagecolorpickerlogo](assets/css/feature-img/imagecolorpickerlogo.png)
 
-I used the following HEX colours:
+I have used the following Hex colours:
 
-#8c5ad9
-#240c44
-#ffffff
-#000000
+* #8c5ad9
+* #240c44
+* #ffffff
+* #000000
 
 ![colourpalette](assets/css/feature-img/Colourpalette.png)
+
+The following contrast checks were completed to check accessability:
+
+![contrastcheck1](assets/css/feature-img/contrastcheck.png)
+![contrastcheck2](assets/css/feature-img/contrastcheck3.png)
+
