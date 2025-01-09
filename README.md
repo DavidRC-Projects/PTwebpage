@@ -41,7 +41,7 @@ Frequent Visitor Goals
 
 I used a colour image picker to select colours from the logo, ensuring consistent colour usage across the webpage. To create visually appealing design, i chose a dark background, accented with purple to highlight specific elements. The use of purple can help reinforce brand identity and can make key components stand out to engage users.
 
-![imagecolorpickerlogo](assets/css/feature-img/imagecolorpickerlogo.png)
+![imagecolorpickerlogo](assets/feature-img/imagecolorpickerlogo.png)
 
 I have used the following Hex colours:
 
@@ -50,10 +50,10 @@ I have used the following Hex colours:
 * #ffffff
 * #000000
 
-![colourpalette](assets/css/feature-img/Colourpalette.png)
+![colourpalette](assets/feature-img/Colourpalette.png)
 
 The following contrast checks were completed to check accessability:
 
-![contrastcheck1](assets/css/feature-img/contrastcheck.png)
-![contrastcheck2](assets/css/feature-img/contrastcheck3.png)
+![contrastcheck1](assets/feature-img/contrastcheck.png)
+![contrastcheck2](assets/feature-img/contrastcheck3.png)
 
