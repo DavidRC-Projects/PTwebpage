@@ -57,3 +57,14 @@ The following contrast checks were completed to check accessability:
 ![contrastcheck1](assets/feature-img/contrastcheck.png)
 ![contrastcheck2](assets/feature-img/contrastcheck3.png)
 
+### Typography
+
+I have used google fonts to import fonts.
+
+I have used Marvel font.
+
+### Wireframes
+
+Wireframes were created for desktops, tablet and mobile using figma.
+
+![wireframehomepage](assets/feature-img/wireframehomepage.png)
