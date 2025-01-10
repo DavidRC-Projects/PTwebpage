@@ -5,15 +5,35 @@
 :root {
     --primary-font: "Marvel", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
-    --primary-color: #000000;
-    /* White */
+    --primary-color: #ffffff; /* White */
+    --clr-dark: #000000; /* Black */
+    --clr-primary: #240c44;
+    --button-color: #240c44; /* Default button colour is purple */
+    --btn-border-radius: 10px;
 }
 
 body {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    background-color: var(--clr-dark);
 }
 
 h1 {
     font-family: var(--primary-font);
+}
+
+/* Button ID using CSS variables */
+#button {
+    background-color: var(--button-color);
+    font-family: var(--primary-font);
+    border-radius: var(--btn-border-radius);
+}
+
+/* Button class used for text colour and size of buttons */
+
+.button {
+    height: 82 px;
+    width: 392 px;
+    font-size: 24px;
+    color: var(--primary-color);
 }
