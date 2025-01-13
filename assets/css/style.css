@@ -1,7 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* CSS Variables */
+/* CSS Variables for global styles */
 :root {
     --primary-font: "Marvel", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
@@ -10,6 +10,11 @@
     --clr-primary: #240c44;
     --button-color: #240c44; /* Default button colour is purple */
     --btn-border-radius: 10px;
+}
+
+/* CSS Variables for global styles */
+#navbar {
+    background-color: var(--clr-primary);
 }
 
 body {

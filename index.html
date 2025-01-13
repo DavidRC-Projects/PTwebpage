@@ -31,27 +31,54 @@
 </head>
 
 <body>
-    <!-- Homepage logo -->
+    <!-- Navigation bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Homepage logo and images in carousel -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/Fjoneslogo.png" class="d-block w-50" alt="FJonesLogo">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/sitting.png" class="d-block w-50" alt="Francis Jones on static bike">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/press.png" class="d-block w-50" alt="Francis Jones lifting a bar above head">
-          </div>
+            <div class="carousel-item active d-flex justify-content-center">
+                <img src="assets/images/Fjoneslogo.png" class="d-block w-50" alt="FJonesLogo">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/sitting.png" class="d-block w-50" alt="Francis Jones on static bike">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/press.png" class="d-block w-50" alt="Francis Jones lifting a bar above head">
+            </div>
         </div>
-      </div>
-       <!-- previous image sizes <img src="" width="669" height="539" alt="FJonesLogo"> -->
+    </div>
+    <!-- previous image sizes <img src="" width="669" height="539" alt="FJonesLogo"> -->
     </div>
     <!-- Navigation buttons -->
-        <button id="button" class="button">
-        <a href="aboutme.html">START HERE</a></button>
-    <button id="button" class="button"><a href="contact.html">GET IN TOUCH</a>
-    </button>
+    <a class="btn btn-primary" href="#" role="button">START HERE</a>
+    <a class="btn btn-primary" href="#" role="button">GET IN TOUCH</a>
 
     <!-- Header -->
     <header>Header</header>
