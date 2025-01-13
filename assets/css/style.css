@@ -1,23 +1,35 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* CSS Variables for global styles */
 :root {
     --primary-font: "Marvel", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
     --primary-color: #ffffff;
-    /* White */
     --clr-dark: #000000;
-    /* Black */
     --clr-primary: #240c44;
-    --button-color: #240c44;
-    /* Default button colour is purple */
-    --btn-border-radius: 10px;
+    --button-color: #240c44; /* Default button colour is purple */
 }
 
 /* CSS Variables for global styles */
 #navbar {
     background-color: var(--clr-primary);
+}
+
+body {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    background-color: var(--clr-dark);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -30,10 +42,24 @@ header {
     align-items: baseline;
 }
 
-body {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    background-color: var(--clr-dark);
+/* Main content */
+main {
+    background-color: var(--clr-primary);
+    flex: 1 0 auto; /* Main element takes up space to push footer down */
+}
+
+#menu {
+    fontsize: 100%;
+    letter-spacing: 2px;
+    color: var(--primary-color)
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid var(--primary-color);
 }
 
 /* Position image in homepage */
@@ -45,5 +71,4 @@ body {
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    position: fixed;
 }
