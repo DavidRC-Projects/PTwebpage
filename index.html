@@ -32,33 +32,24 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Booking</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
+    <header>
+        <nav>
+            <a href="index.html">
+                <h1>Francis Jones Personal Training</h1>
+            </a>
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">X</label>
+            <nav id="navbar">
+                <ul id="menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-            </div>
-        </div>
-    </nav>
+            </nav>
+    </header>
+    <br>
 
     <!-- Homepage responsive images uisng W3schools -->
     <div class="img">
@@ -67,9 +58,8 @@
 
     <!-- Navigation buttons -->
     <div class="d-flex justify-content-center justify-content-evenly"><a class="btn btn-primary" href="#"
-        role="button">START HERE</a>
-    <a class="btn btn-primary" href="#" role="button">GET IN TOUCH</a>
-</body>
+            role="button">START HERE</a>
+        <a class="btn btn-primary" href="#" role="button">GET IN TOUCH</a>
 </div>
 
 <!-- Header -->
@@ -80,6 +70,7 @@
 
 <!-- Footer -->
 <footer>Footer</footer>
+</body>
 
 <!-- Bootstrap Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

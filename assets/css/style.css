@@ -20,6 +20,16 @@
     background-color: var(--clr-primary);
 }
 
+/* Header */
+header {
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 body {
     font-family: var(--secondary-font);
     color: var(--primary-color);
