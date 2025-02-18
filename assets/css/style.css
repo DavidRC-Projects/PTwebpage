@@ -8,68 +8,126 @@
     box-sizing: border-box;
 }
 
-/* CSS Variables for global styles */
-:root {
-    --primary-font: "Marvel", sans-serif;
-    --secondary-font: "Montserrat", sans-serif;
-    --primary-color: #ffffff;
-    --clr-dark: #000000;
-    --clr-primary: #240c44;
-    --button-color: #240c44; /* Default button colour is purple */
-}
-
-/* CSS Variables for global styles */
-#navbar {
-    background-color: var(--clr-primary);
-}
-
+/* General Styles */
 body {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    background-color: var(--clr-dark);
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e04e2d;
+}
+
+/* Features Section */
+.features {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.feature-container {
     display: flex;
-    flex-direction: column;
-    font family: var(--secondary-font);
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-/* Header */
-header {
-    padding: 0 1rem;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+.feature {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Main content */
-main {
-    background-color: var(--clr-dark);
-    flex: 1 0 auto; /* Main element takes up space to push footer down */
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
 }
 
-#menu {
-    fontsize: 100%;
-    letter-spacing: 2px;
-    color: var(--primary-color)
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
-#menu > li {
-    margin-bottom: 1em;
+.feature p {
+    font-size: 1rem;
 }
 
-.active {
-    border-bottom: 1px solid var(--primary-color);
+/* Testimonials Section */
+.testimonials {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 50px 20px;
 }
 
-/* Position image in homepage */
-.img {
-    display: block;
-    margin: auto;
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.testimonials .quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.testimonials .author {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 0.9rem;
 }
